@@ -1,0 +1,46 @@
+main {
+  padding: 2rem;
+  background-color: var(--surface-color);
+
+  & img {
+    padding-bottom: 1rem;
+  }
+
+  & h1 {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.infor {
+  padding-top: 2rem;
+  & div {
+    gap: 0.5rem;
+  }
+}
+
+@media (width >= 80em) {
+  main {
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+
+    & .image-perfil {
+      width: 176px;
+      height: 176px;
+    }
+
+    & .infor {
+      padding-top: 0;
+
+      & p {
+        width: 17.5rem;
+      }
+    }
+
+    & .bio {
+      margin-right: auto;
+      width: 24rem;
+    }
+  }
+}

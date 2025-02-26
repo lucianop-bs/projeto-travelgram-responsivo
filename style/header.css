@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  padding: 1rem 1rem;
+  justify-content: space-between;
+  background-color: var(--surface-color);
+
+  & a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
