@@ -4,9 +4,3 @@
 .flex {
   display: flex;
 }
-
-@media (width >=80rem) {
-  .desktop-only {
-    display: initial;
-  }
-}

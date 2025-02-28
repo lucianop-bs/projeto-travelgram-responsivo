@@ -14,3 +14,8 @@ nav {
   align-items: center;
   gap: 1rem;
 }
+@media (width >= 80em) {
+  .desktop-only {
+    display: initial;
+  }
+}
