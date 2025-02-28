@@ -5,7 +5,7 @@ header {
   background-color: var(--surface-color);
 
   & a:hover {
-    color: red;
+    color: var(--brand-color);
     text-decoration: underline;
   }
 }
